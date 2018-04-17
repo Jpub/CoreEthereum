@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Taxi Driver
+    link(rel="stylesheet" type="text/css" href="/stylesheets/main.css")
+  body
+    div(id='container')
+
+      label(class='col-lg-2 control-label')
+        a(href='/users') 클라우드펀딩 메인
+
+      <img src="/images/taxi_movie.jpg" width=100% height=100%>
+
+      h2(id='description')
+        span='펀딩 모금액 : ' + fund_balance
+        font(color='gray')  ETH
+
+      h2(id='description')
+
+        span='보유 토큰양 : ' + fund_tamount
+        font(color='gray')  TDs
+
+      button(id='button' onClick="location.href='/users/new'") 참여하기
+
+      div(style=display)
+        h2 사용자 상세 정보
+        p - 사용자 계정 :   #{user}
+        p - 이더 보유량 :   #{user_balance} ETH
+        p - 토큰 보유량 :   #{user_tamount} TDs
