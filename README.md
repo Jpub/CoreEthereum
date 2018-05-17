@@ -2,7 +2,7 @@
 # 코어 이더리움 프로그래밍
   
 
-![핵심만 골라 배우는 코틀린 프로그래밍](http://image.kyobobook.co.kr/images/book/xlarge/200/x9791188621200.jpg)
+![코어 이더리움 프로그래밍](http://image.yes24.com/momo/TopCate1819/MidCate008/181872819.jpg)
 
 **출판사** 제이펍  
 **저자명** 박재현, 오재훈, 박혜영  
